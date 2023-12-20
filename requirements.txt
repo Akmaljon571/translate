@@ -1,2 +1,3 @@
 aiogram==2.25.1
 environs
+requests==2.31.0
