@@ -6,6 +6,7 @@ def path():
     current_directory = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(current_directory, 'db.json')
 
+
 def get_all():
     with open(path(), 'r') as file:
         return json.load(file)
